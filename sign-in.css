@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin:0;
+    background: 0000000;
+}
+
+.navbar{
+    background:#6ab446;
+}
+
+.nav-link,
+.nav-brand{
+    color: #ffff;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right:1em !important;
+}
+
+.nav-link:hover{
+    color:000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+body{background-color:#eee;
+    background-image: url("https://images.unsplash.com/photo-1506755594592-349d12a7c52a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2933&q=80") !important;
+}
+.container-fluid {padding:50px !important; border-radius: 20px !important;}
+.container{background-color:white;padding:50px;}
+#title{font-family: 'Lobster', cursive;
+color: white;
+}
+
+#sign{
+    margin-top:100px;
+        background-color: rgba(34,139,34, 0.8);
+        border-radius: 20px;
+        color:white;
+    
+}
