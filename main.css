@@ -10,7 +10,7 @@ body{
 
 .nav-link,
 .nav-brand{
-    color: #ffff;
+    color: #ffff !important;
     cursor: pointer;
 }
 
@@ -92,5 +92,9 @@ body{
 
 
 .text-uppercase{
+    color: white;
+}
+
+.navbar-brand{
     color: white;
 }

@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 1
+    },
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 2
+    },
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 3
+    },
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 4
+    },
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 5
+    },
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 6
+    },
+    {
+      "name": "mercy",
+      "email": "kings@email.com",
+      "id": 7
+    },
+    {
+      "name": "Dawodu Busayo",
+      "email": "dfumbibusayo@yahoo.com",
+      "id": 8
+    }
+  ],
+  "candidates": [
+    {
+      "name": "David Mark",
+      "slogan": "Time to Move",
+      "bio": "BSc Physics and Astronomy, Masters in Philosophy and Human Relations",
+      "age": "50",
+      "party": "PDP",
+      "id": 1
+    },
+    {
+      "name": "Patient Jonathan",
+      "slogan": "Next Level",
+      "bio": "Bsc Chemistry and Pollution Studies",
+      "age": "46",
+      "party": "APC",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>admin panel</title>
+    <link rel="stylesheet" type="text/css" href="admin.css"> 
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+
+        <header role="banner">
+                <h1>I-POLL</h1>
+                <ul class="utilities">
+                  <li class="logout warn"><a href="index.html">Log Out</a></li>
+                </ul>
+              </header>
+              
+              <nav role="navigation">
+                <ul class="main">
+                  <li class="dashboard"><a href="#">Dashboard</a></li>
+                  <li class="write"><a href="#addCandidate">Add Candidate</a></li>
+                  <li class="edit"><a href="#">Edit Posts</a></li>
+                  <li class="comments"><a href="#">Comments</a></li>
+                  <li class="users"><a href="#">Manage Users</a></li>
+                </ul>
+              </nav>
+              
+              <main role="main">
+                <section class="panel important">
+                  <h2>Welcome to Your Dashboard </h2>
+                  <ul>
+                    <li>see important updates on candidates.</li>
+                    <li>See Voters</li>
+                    
+                  </ul>
+                </section>
+                <section class="panel">
+                  <h2>Presidential Candidate</h2>
+                  <ul id="presidentul">
+                  </ul>
+                </section>
+                <section class="panel">
+                </section>
+                <section class="panel important" id="addCandidate">
+                  <h2 >Add Candidate</h2>
+                  <form role="form" method="post" action="http://localhost:3000/candidates">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputFullName">FullName</label>
+                        <input type="text" class="form-control" id="inputFullName" placeholder="fullName">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Slogan</label>
+                        <input type="text" class="form-control" id="Slogan" placeholder="Slogan">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Bio</label>
+                      <input type="text" class="form-control" id="inputBio" placeholder="Bio">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputAge">Age</label>
+                        <input type="text" class="form-control" id="inputAge">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputparty">Party</label>
+                        <select id="party" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>PDP</option>
+                          <option>APC</option>
+
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                    
+                    <button type="submit" class="btn btn-primary">Create</button>
+                  </form>
+                </section>
+                <section class="panel">
+                  <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+                    <table  id="tableUser" class="table table-striped mb-0">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                        </tr>
+                      </thead>
+                    
+                    </table>
+                  
+                  </div>
+              
+                </section>
+                <section class="panel ">
+                  <h2>Table</h2>
+                  <table>
+                    <tr>
+                      <th>Username</th>
+                      <th>Posts</th>
+                      <th>comments</th>
+                      <th>date</th>
+                    </tr>
+                    <tr>
+                      <td>Pete</td>
+                      <td>4</td>
+                      <td>7</td>
+                      <td>Oct 10, 2015</td>
+              
+                    </tr>
+                    <tr>
+                      <td>Mary</td>
+                      <td>5769</td>
+                      <td>2517</td>
+                      <td>Jan 1, 2014</td>
+                    </tr>
+                  </table>
+                </section>
+              
+              </main>
+              <footer role="contentinfo">Easy Admin Style by Melissa Cabral</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script 
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        ntegrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="admin.js"></script
+
+</body>
+</html>
